@@ -1,0 +1,13 @@
+npm init
+npm install express
+npm install -D typescript @types/express
+npm install -D  ts-node-dev
+npx tsc --init
+
+
+formas de executar o programa
+npx tsc ./nome-do-arquivo  //esse comando transpila o código gerando um arquivo js
+
+// mudar no arquivo "tsconfig.json" "outDir":"./dist" 
+//criar um comando no arquivo "package.json" ("dev":"ts-node-dev ./src/index.ts",) para transpilar em ambiente de execução 
+
